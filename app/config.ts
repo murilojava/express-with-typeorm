@@ -12,9 +12,6 @@ export const config = {
     database: process.env.DATABASE_NAME || 'my_db',
     synchronize: process.env.DATABASE_SYNC === "true",
     logging: process.env.DATABASE_LOG == "true",
-    entities: ["src/entity/**/*.ts", "entity/**/*.js"],
-    migrations: ["src/migration/**/*.ts", "migration/**/*.js"],
-    subscribers: ["src/subscriber/**/*.ts", "subscriber/**/*.js"],
+    entities: ["app/entity/**/*.ts", "entity/**/*.js"],
   },
-
 };
