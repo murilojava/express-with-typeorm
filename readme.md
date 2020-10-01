@@ -12,3 +12,7 @@ Vou colocar um midleware para autênticação JWT e tentar manter de forma simpl
 É necessário configurar a conexão com o banco de dados que criando um arquivo .env raiz do projeto, tem um arquivo .env.example lá mostrando quais são as configurações necessárias.
 
 Para executar o projeto em modo dev executar `npm run dev`
+
+
+- Adicionado o suporte ao envio de e-mail (nodemailer)
+- Adicionar o suporte ao upload de arquivos (multer)
