@@ -24,5 +24,10 @@ export const config = {
       pass: process.env.MAIL_PASS, // generated ethereal password
     },
     from:process.env.MAIL_FROM
+  },
+
+  upload: {
+    dir:process.env.UPLOAD_DIR,
+    max:process.env.UPLOAD_SIZE,
   }
 };
